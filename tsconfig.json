@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "ES2020",                        // Target ECMAScript version
+      "module": "CommonJS",                     // Use CommonJS for module resolution
+      "outDir": "./dist",                       // Output directory for compiled files
+      "rootDir": "./src",                       // Root directory of your source files
+      "strict": true,                           // Enable all strict type-checking options
+      "experimentalDecorators": true,           // Enable support for decorators
+      "emitDecoratorMetadata": true,            // Emit metadata for decorators
+      "esModuleInterop": true,                  // Allows default imports for CommonJS
+      "skipLibCheck": true                      // Skip type checks for declaration files
+    },
+    "include": ["src"],                         // Include all files in the src folder
+    "exclude": ["node_modules"]                // Exclude the node_modules folder
+  }
+  
